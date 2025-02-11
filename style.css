@@ -1,0 +1,80 @@
+/* 1. Text-Farbe ändern */
+h1 {
+    color: blue;
+}
+
+/* 2. Schriftgröße für .intro auf 20px setzen */
+.intro {
+    font-size: 20px;
+}
+
+/* 3. Hintergrundfarbe für den Body setzen */
+body {
+    background-color: lightgray; /* Wähle eine beliebige Farbe */
+}
+
+/* 4. Button-Styling: Grün mit weißer Schrift und abgerundeten Ecken */
+/* 5. Hover-Effekt für den Button (dunkelgrün bei Hover) */
+.btn {
+    background-color: green;
+    color: white;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+}
+
+/* 6. Box: Feste Größe und Hintergrundfarbe */
+/* 7. Border-Radius für die Box setzen */
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue; /* Wähle eine beliebige Farbe */
+    line-height: 100px;
+    border-radius: 15px;
+}
+
+/* 8. Listenabstand: 10px Abstand zwischen den Listenelementen */
+/* 9. Punkte der Liste entfernen */
+.liste {
+    list-style: none; /* Entfernt die Punkte */
+    padding: 0;
+}
+
+.liste li {
+    margin-bottom: 10px; /* Abstand zwischen den Listenelementen */
+}
+
+/* 10. Bild kreisförmig machen */
+/* 11. Hover-Effekt für das Bild: 10% größer */
+.bild {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.bild:hover {
+    transform: scale(1.1);
+}
+
+/* 12. Animation für das Bild: Verschwinden und Erscheinen */
+@keyframes fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.bild {
+    animation: fade 2s ease-in-out infinite alternate;
+}
+
+/* 13. Schatten für den Button bei Hover */
+.btn:hover {
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* 14. Farbverlauf als Hintergrund */
+body {
+    background: linear-gradient(to right, lightblue, lightpink);
+}

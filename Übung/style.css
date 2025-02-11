@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+body {
+    background-color: rgb(163, 255, 255);
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: darkgreen;
+}
